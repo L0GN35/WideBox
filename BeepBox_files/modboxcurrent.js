@@ -6814,7 +6814,7 @@ var beepbox;
                 this._leftHighlight,
                 this._rightHighlight,
             ]);
-            this.container = beepbox.html.div({ className: "barScrollBar", style: "width: 512px; height: 20px; overflow: hidden; position: relative;" }, [this._svg]);
+            this.container = beepbox.html.div({ className: "barScrollBar", style: "width: 900px; height: 20px; overflow: hidden; position: relative;" }, [this._svg]);
             this._mouseX = 0;
             this._mouseY = 0;
             this._mouseDown = false;
